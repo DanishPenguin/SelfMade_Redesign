@@ -85,13 +85,22 @@ nav ul li i {
 
 .xmas-sale h1 {
 	position: absolute;
-	z-index: 2;
+	margin-top: -550px;
+	z-index: 1;
+	font-size: 40px;
+	margin-left: 90px;
+	font-weight: 100;
 
 }
 
 .xmas-sale a {
 	position: absolute;
-	z-index: 2;
+	margin-top: -450px;
+	z-index: 1;
+	font-size: 25px;
+	margin-left: 160px;
+	text-decoration: none;
+	color: #002E5D;
 }
 
 .xmas-sale img {
@@ -105,6 +114,37 @@ nav ul li i {
 	z-index: 1;
 	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(2,0,36,0) 100%);
 	width: 100%;
-	height: 100%;
+	height: 96.8%;
 }
 
+.yarn-sale {
+	position: relative;
+	margin-top: -70px;
+	width: 100%;
+}
+
+.yarn-sale h1 {
+	position: absolute;
+	margin-top: -550px;
+	z-index: 1;
+	font-size: 40px;
+	margin-left: 90px;
+	font-weight: 100;
+	display: flex;
+	justify-content: flex-start;
+	margin-right: 90px;
+}
+
+.yarn-sale a {
+		position: absolute;
+	margin-top: -450px;
+	z-index: 1;
+	font-size: 25px;
+	margin-left: 160px;
+	text-decoration: none;
+	color: #002E5D;
+}
+
+.yarn-sale img {
+	width: 100%;
+}
