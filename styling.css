@@ -175,20 +175,26 @@ nav ul li i {
 	z-index: 1;
 	background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(255,255,255,1) 100%);
 	position: absolute;
-	height: 100px;
+	height: 570px;
 	width: 10%;
 	font-size: 80px;
 	text-align: center;
 	padding-top: 70px;
 	color: rgba(35,31,32,1.00);
+	margin-top: -541px;
+	margin-left: 1400px;
 }
 
 .slider-img {
 	width: 25%;
-	margin: 0, 40px, 0, 40px;
+	margin: 0px, 40px, 0, 40px;
 	position: relative;
 	overflow: hidden;
-	margin-left: 60px;
+	margin-left: 60px;	
+}
+
+.slider-img:nth-child(3){
+	margin-top: -600px !important;
 }
 
 .sale-ribbon {
@@ -206,8 +212,19 @@ nav ul li i {
 
 }
 
+.carousel-slider {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 100px;
+}
+
 .slider-img img {
 	width: 100%;
+	object-fit: cover;
+	width: 300px;
+	height: 300px;
 }
 
 .slider-img h3 {
