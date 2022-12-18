@@ -114,7 +114,7 @@ nav ul li i {
 	z-index: 1;
 	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(2,0,36,0) 100%);
 	width: 100%;
-	height: 100%;
+	height: 91%;
 }
 
 .yarn-sale {
@@ -238,6 +238,14 @@ nav ul li i {
 	margin-right: 10px;
 }
 
+.overlay-1 {
+	position: absolute;
+	z-index: 1;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(2,0,36,0) 100%);
+	width: 100%;
+	height: 100%;
+}
+
 .sewing-machine {
 	position: relative;
 	margin-top: -70px;
@@ -250,15 +258,18 @@ nav ul li i {
 	font-size: 40px;
 	margin-left: 90px;
 	font-weight: 100;
+	width: 40%;
+	line-height: 60px;
+	
 
 }
 
 .sewing-machine a {
 	position: absolute;
-	margin-top: 350px;
+	margin-top: 520px;
 	z-index: 1;
 		font-size: 25px;
-	margin-left: -1360px;
+	margin-left: -1200px;
 	text-decoration: none;
 	color: #002E5D;
 }
@@ -267,3 +278,75 @@ nav ul li i {
 	width: 100%;
 }
 
+.recipe-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.recipe-section article {
+	margin-left: 30px;
+}
+
+.recipe-section img {
+	width: 100%;
+}
+
+.recipe-section h2 {
+
+	margin-top: 5px;
+	line-height: 40px;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+.recipe-section p {
+	margin-top: -10px;
+	margin-bottom: -10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 430px;
+	
+
+	
+}
+
+.recipe-section a {
+	font-size: 25px;
+		text-decoration: none;
+	color: #002E5D;
+	margin-left: 20px;
+}
+
+.keeping-warm {
+	position: relative;
+	width: 100%;
+	
+}
+
+.keeping-warm h1 {
+		position: absolute;
+	margin-top: -450px;
+	z-index: 1;
+	font-size: 40px;
+	margin-left: 990px;
+	font-weight: 100;
+}
+
+.keeping-warm a {
+		position: absolute;
+	margin-top: 300px;
+	z-index: 1;
+	font-size: 25px;
+	margin-left: 150px;
+	text-decoration: none;
+	color: #002E5D;
+}
+
+.keeping-warm img {
+	width: 100%;
+	margin-left: -550px;
+}
