@@ -114,7 +114,7 @@ nav ul li i {
 	z-index: 1;
 	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(2,0,36,0) 100%);
 	width: 100%;
-	height: 91%;
+	height: 100%;
 }
 
 .yarn-sale {
@@ -158,12 +158,12 @@ nav ul li i {
 	width: 100%;
 	height: 100%;
 }
-
+/*
 .slider-btn-back {
 	z-index: 1;
 	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(2,0,36,0) 100%);
 	position: absolute;
-	height: 570px;
+	margin-left: -1400px;
 	width: 10%;
 	font-size: 80px;
 	text-align: center;
@@ -184,7 +184,7 @@ nav ul li i {
 	margin-top: -541px;
 	margin-left: 1400px;
 }
-
+*/
 .slider-img {
 	width: 25%;
 	margin: 0px, 40px, 0, 40px;
@@ -217,10 +217,7 @@ nav ul li i {
 	padding: 0px;
 }
 
-.slider-img-box {
-	width: 300px;
-	height: 200px;
-}
+
 
 .slider-img img {
 	width: 100%;
@@ -240,3 +237,33 @@ nav ul li i {
 	margin-top: -110px;
 	margin-right: 10px;
 }
+
+.sewing-machine {
+	position: relative;
+	margin-top: -70px;
+}
+
+.sewing-machine h1 {
+	position: absolute;
+	margin-top: -550px;
+	z-index: 1;
+	font-size: 40px;
+	margin-left: 90px;
+	font-weight: 100;
+
+}
+
+.sewing-machine a {
+	position: absolute;
+	margin-top: 350px;
+	z-index: 1;
+		font-size: 25px;
+	margin-left: -1360px;
+	text-decoration: none;
+	color: #002E5D;
+}
+
+.sewing-machine img {
+	width: 100%;
+}
+
