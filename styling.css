@@ -350,3 +350,42 @@ nav ul li i {
 	width: 100%;
 	margin-left: -550px;
 }
+
+.xmas-section {
+		display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.xmas-section article {
+	margin-left: 30px;
+}
+
+.xmas-section img {
+	width: 100%;
+}
+
+.xmas-section h2 {
+		margin-top: 5px;
+	line-height: 40px;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+.xmas-section p {
+		margin-top: -10px;
+	margin-bottom: -10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 430px;
+}
+
+.xmas-section a {
+		font-size: 25px;
+		text-decoration: none;
+	color: #002E5D;
+	margin-left: 20px;
+}
