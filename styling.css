@@ -503,5 +503,21 @@ nav ul li i {
 
 footer {
 	background-color: #231F20;
-	padding: 10px, 30px, 10px, 30px;
+	padding-top: 5px;
+	padding-left: 20px;
+	color: white;
+}
+
+footer .payment-img {
+	width: 50%;
+	margin-top: -28px;
+}
+
+.payment-img img {
+	width: 6%;
+	margin-left: 5px;
+}
+
+.payment-img img:nth-child(1) {
+	width: 10%;
 }
