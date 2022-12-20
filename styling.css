@@ -506,11 +506,15 @@ footer {
 	padding-top: 5px;
 	padding-left: 20px;
 	color: white;
+	display: flex;
+	flex-flow: row;
 }
 
-footer .payment-img {
+.payment-img {
 	width: 50%;
 	margin-top: -28px;
+	margin-top: 60px;
+	margin-left: -440px;
 }
 
 .payment-img img {
@@ -520,4 +524,14 @@ footer .payment-img {
 
 .payment-img img:nth-child(1) {
 	width: 10%;
+}
+	width: 8%;
+
+footer p:nth-child(3) {{
+
+	margin-left: -400px;er;
+}flex-flow{
+
+}
+ row;
 }
