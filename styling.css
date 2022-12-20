@@ -500,3 +500,8 @@ nav ul li i {
 	width: 60%;
 	line-height: 60px;
 }
+
+footer {
+	background-color: #231F20;
+	padding: 10px, 30px, 10px, 30px;
+}
