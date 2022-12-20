@@ -505,17 +505,17 @@ footer {
 	background-color: #231F20;
 	padding-top: 5px;
 	padding-left: 20px;
+	padding-bottom: 20px;
 	color: white;
 	display: flex;
 	flex-flow: row;
-	font-size: 15px;
+	font-size: 12px;
 }
 
 .payment-img {
 	width: 50%;
-	margin-top: -28px;
-	margin-top: 60px;
-	margin-left: -400px;
+	margin-top: 50px;
+	margin-left: -330px;
 }
 
 .payment-img img {
@@ -529,32 +529,44 @@ footer {
 
 footer p:nth-child(3) {
 	text-align: center;
-	margin-left: -130px;
+	margin-left: -140px;
 }
 
 .contact-info {
 	margin-left: 100px;
 	width: 30%;
+	margin-top: 2px;
+	margin-left: 230px;
 }
 
 .contact-row {
 	display: flex;
 	flex-flow: row;
-	justify-content: space-between;
 	width: 100%;
 }
 
 .contact-row p {
-	margin-right: 30px;
+	margin-right: 53px;
+}
+
+.contact-row p:nth-child(3) {
+	margin-left: -30px;
 }
 
 .contact-column {
 	display: flex;
 	flex-flow: column;
 	justify-content: space-between;
-		width: 100%;
+	width: 100%;
+	text-align: left;
+	margin-top: -20px;
 }
 
 .contact-column p {
-	
+	text-align: left;
+	line-height: 20px;
+}
+
+.contact-column p:nth-child(3){
+	margin-right: 210px !important;
 }
