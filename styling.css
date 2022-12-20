@@ -508,13 +508,14 @@ footer {
 	color: white;
 	display: flex;
 	flex-flow: row;
+	font-size: 15px;
 }
 
 .payment-img {
 	width: 50%;
 	margin-top: -28px;
 	margin-top: 60px;
-	margin-left: -440px;
+	margin-left: -400px;
 }
 
 .payment-img img {
@@ -525,13 +526,35 @@ footer {
 .payment-img img:nth-child(1) {
 	width: 10%;
 }
-	width: 8%;
 
-footer p:nth-child(3) {{
-
-	margin-left: -400px;er;
-}flex-flow{
-
+footer p:nth-child(3) {
+	text-align: center;
+	margin-left: -130px;
 }
- row;
+
+.contact-info {
+	margin-left: 100px;
+	width: 30%;
+}
+
+.contact-row {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.contact-row p {
+	margin-right: 30px;
+}
+
+.contact-column {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+		width: 100%;
+}
+
+.contact-column p {
+	
 }
